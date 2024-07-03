@@ -28,6 +28,7 @@ function verificarChute() {
         exibirTextoNaTela('h1', 'Acertou!!!');
         exibirTextoNaTela('p', mensagemtentativa);
         document.getElementById('reiniciar').removeAttribute('disabled'); // Habilita o Botão Novo Jogo
+        document.onclick.setAttribute('disabled',true);
     } else { 
         if (chute > numeroSecreto) { 
             exibirTextoNaTela('p','O número secreto e menor !');
@@ -70,6 +71,7 @@ function reiniciarJogo() {
     tentativa= 1 ;
     exibirMensagemInicial();
     document.getElementById('reiniciar').setAttribute('disabled',true); // Desabilita o Botão Novo Jogo
+    document.onclick.setAttribute('disabled',false);
 
 }
 
