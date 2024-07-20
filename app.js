@@ -25,6 +25,7 @@ function verificarChute() {
     let mensagemtentativa = `Parabéns você acertou o número secreto com  ${tentativa} ${palavra}`;
 
     if (numeroSecreto == chute) {
+        document.getElementById('chutar').setAttribute('disabled','disbled');
         exibirTextoNaTela('h1', 'Acertou!!!');
         exibirTextoNaTela('p', mensagemtentativa);
         document.getElementById('reiniciar').removeAttribute('disabled'); // Habilita o Botão Novo Jogo
@@ -65,7 +66,7 @@ function gerarNumeroAleatorio() {
 }
 
 function reiniciarJogo() { 
-    console.log('teste onclik');
+    document.getElementById('chutar').removeAttribute('disabled','true'); // Habilita o Botão Novo Jogo
     numeroSecreto = gerarNumeroAleatorio();
     limparCampo();
     tentativa= 1 ;
