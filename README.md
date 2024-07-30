@@ -9,4 +9,4 @@
 </div>
 
 ## Time
-<img loading="Foto Perfil Alura" src="https://avatars.githubusercontent.com/u/172981542?s=400&u=54d264d447d75dc46d4402c8404a882aefe98026&v=4" width=115><br><sub>Kleber Alves</sub>]
+<img loading="Foto Perfil Alura" src="https://avatars.githubusercontent.com/u/172981542?s=400&u=54d264d447d75dc46d4402c8404a882aefe98026&v=4" width=115><br><sub>Kleber Alves</sub>
